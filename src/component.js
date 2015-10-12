@@ -134,6 +134,9 @@ var QuillComponent = React.createClass({
 		// Check if one of the changes should trigger a re-render.
 		for (var i=0; i<this.dirtyProps.length; i++) {
 			var prop = this.dirtyProps[i];
+      if (prop === 'formats' || prop === 'toolbar' || prop === 'styles') {
+        continue
+      };
 			if (nextProps[prop] !== this.props[prop]) {
 				return true;
 			}
