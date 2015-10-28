@@ -1,13 +1,13 @@
 {
   "name": "react-quill-custom-toolbar-fork",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "description": "The Quill rich-text editor as a React component.",
   "author": "zenoamaro <zenoamaro@gmail.com>",
   "homepage": "https://github.com/zenoamaro/react-quill",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mlennon3/react-quill.git"
+    "url": "https://github.com/lramsey/react-quill.git"
   },
   "main": "src/index.js",
   "scripts": {
